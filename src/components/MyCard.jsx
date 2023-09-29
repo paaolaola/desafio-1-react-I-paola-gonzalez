@@ -6,9 +6,7 @@ const MyCard = ({ character }) => {
             <img src={character.image} alt={character.type} />
             <h2>{character.name}</h2>
             <p>{character.description}</p>
-            <Button as="a" variant="primary">
-                {character.button}
-            </Button>
+            <Button variant={character.colorButton}>{character.button}</Button>
         </div>
     );
 };

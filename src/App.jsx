@@ -12,6 +12,7 @@ const data = {
             image: "https://images.pexels.com/photos/3196887/pexels-photo-3196887.jpeg",
             type: "Husky",
             button: "Husky",
+            colorButton: "success",
         },
 
         {
@@ -20,6 +21,7 @@ const data = {
             image: "https://images.pexels.com/photos/15794775/pexels-photo-15794775/free-photo-of-hermoso-border-collie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             type: "Bobtail",
             button: "Bobtail",
+            colorButton: "primary",
         },
 
         {
@@ -28,6 +30,7 @@ const data = {
             image: "https://images.pexels.com/photos/5205386/pexels-photo-5205386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             type: "Shar Pei",
             button: "Shar Pei",
+            colorButton: "danger",
         },
 
         {
@@ -36,6 +39,7 @@ const data = {
             image: "https://images.pexels.com/photos/11756622/pexels-photo-11756622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             type: "Beagle",
             button: "Beagle",
+            colorButton: "warning",
         },
     ],
 };
