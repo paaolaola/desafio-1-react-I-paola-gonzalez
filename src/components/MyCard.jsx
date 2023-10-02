@@ -1,5 +1,4 @@
 import Button from "react-bootstrap/esm/Button";
-import Tags from "./Tags";
 
 const MyCard = ({ character }) => {
     return (
