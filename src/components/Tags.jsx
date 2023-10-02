@@ -1,10 +1,6 @@
-// import Button from "react-bootstrap/Button";
+import Button from "react-bootstrap/Button";
 
-// const Tags = (character) => {
-//     return (
-//         <Tags>
-//             <Button variant={character.colorButton}>{character.button}</Button>
-//         </Tags>
-//     );
-// };
-// export default MyCard;
+const Tags = (color, text) => {
+    return <Button bg={color}>{text}</Button>;
+};
+export default Tags;

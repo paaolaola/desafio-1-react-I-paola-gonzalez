@@ -25,3 +25,7 @@ footer {
     font-weight: 600;
     color: rgb(87, 87, 87);
 }
+h2 {
+    font-family: "Annie Use Your Telescope", cursive;
+    padding-top: 10px;
+}

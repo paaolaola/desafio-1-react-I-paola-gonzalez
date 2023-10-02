@@ -1,4 +1,5 @@
-import Button from "react-bootstrap/Button";
+import Button from "react-bootstrap/esm/Button";
+import Tags from "./Tags";
 
 const MyCard = ({ character }) => {
     return (
@@ -6,7 +7,7 @@ const MyCard = ({ character }) => {
             <img src={character.image} alt={character.type} />
             <h2>{character.name}</h2>
             <p>{character.description}</p>
-            <Button variant={character.colorButton}>{character.button}</Button>
+            <Button variant={character.color}>{character.text}</Button>
         </div>
     );
 };
