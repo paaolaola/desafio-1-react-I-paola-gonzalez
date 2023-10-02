@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 
 const Tags = (color, text) => {
-    return <Button bg={color}>{text}</Button>;
+    return <Button variant={color}>{text}</Button>;
 };
 export default Tags;
