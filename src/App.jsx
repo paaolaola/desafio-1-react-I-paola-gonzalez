@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import MyCard from "./components/MyCard";
 import Footer from "./components/Footer";
-import Button from "react-bootstrap/esm/Button";
 
 const data = {
     characters: [

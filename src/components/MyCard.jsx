@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/esm/Button";
+import Badge from "react-bootstrap/Badge";
 
 const MyCard = ({ character }) => {
     return (
@@ -6,7 +6,9 @@ const MyCard = ({ character }) => {
             <img src={character.image} alt={character.type} />
             <h2>{character.name}</h2>
             <p>{character.description}</p>
-            <Button variant={character.color}>{character.text}</Button>
+            <h3>
+                <Badge bg={character.color}>{character.text}</Badge>
+            </h3>
         </div>
     );
 };
