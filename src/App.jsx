@@ -1,7 +1,7 @@
 import "./App.css";
+import React from "react";
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
-import MyCard from "./components/MyCard";
 import Footer from "./components/Footer";
 
 const data = {
@@ -12,7 +12,7 @@ const data = {
             image: "https://images.pexels.com/photos/3196887/pexels-photo-3196887.jpeg",
             type: "Husky",
             text: "Husky",
-            color: "success",
+            color: "bg-success",
         },
 
         {
@@ -21,7 +21,7 @@ const data = {
             image: "https://images.pexels.com/photos/15794775/pexels-photo-15794775/free-photo-of-hermoso-border-collie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             type: "Bobtail",
             text: "Bobtail",
-            color: "primary",
+            color: "bg-primary",
         },
 
         {
@@ -30,7 +30,7 @@ const data = {
             image: "https://images.pexels.com/photos/5205386/pexels-photo-5205386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             type: "Shar Pei",
             text: "Shar Pei",
-            color: "danger",
+            color: "bg-danger",
         },
 
         {
@@ -39,7 +39,7 @@ const data = {
             image: "https://images.pexels.com/photos/11756622/pexels-photo-11756622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             type: "Beagle",
             text: "Beagle",
-            color: "warning",
+            color: "bg-warning",
         },
     ],
 };
@@ -48,9 +48,7 @@ function App() {
         <div>
             <Header title="ADOPTA UN PERRITO"></Header>
             <main>
-                <Gallery characters={data.characters}>
-                    <MyCard></MyCard>
-                </Gallery>
+                <Gallery characters={data.characters}></Gallery>
             </main>
             <Footer></Footer>
         </div>

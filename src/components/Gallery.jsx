@@ -1,3 +1,4 @@
+import React from "react";
 import MyCard from "./MyCard";
 
 const Gallery = ({ characters }) => {

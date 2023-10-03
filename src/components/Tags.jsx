@@ -1,6 +1,7 @@
-import Button from "react-bootstrap/Button";
+import Badge from "react-bootstrap/Badge";
 
-const Tags = (color, text) => {
-    return <Badge variant={color}>{text}</Badge>;
-};
+function Tags({ data }) {
+    return <Badge className={data.color}>{data.text}</Badge>;
+}
+
 export default Tags;
